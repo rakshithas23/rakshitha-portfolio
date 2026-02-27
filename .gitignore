@@ -1,1 +1,6 @@
 node_modules
+# Build folder
+build/
+
+# Mac system file
+.DS_Store

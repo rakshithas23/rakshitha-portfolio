@@ -1,31 +1,5 @@
-import { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import data from '../data/portfolio.json';
-
-function ProfBar({ name, pct }) {
-  const ref = useRef(null);
-  useEffect(() => {
-    const el = ref.current;
-    const obs = new IntersectionObserver(
-      ([entry]) => { if (entry.isIntersecting) { el.style.transform = `scaleX(${pct})`; obs.disconnect(); } },
-      { threshold: 0.5 }
-    );
-    obs.observe(el);
-    return () => obs.disconnect();
-  }, [pct]);
-
-  return (
-    <div className="mb-3">
-      <div className="d-flex justify-content-between mb-1">
-        <span className="prof-label">{name}</span>
-        <span className="prof-pct">{Math.round(pct * 100)}%</span>
-      </div>
-      <div className="progress-custom">
-        <div ref={ref} className="progress-bar-custom" />
-      </div>
-    </div>
-  );
-}
 
 export default function Skills() {
   const { skills } = data;

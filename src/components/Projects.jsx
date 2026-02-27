@@ -74,7 +74,6 @@ function ProjectCard({ project, index }) {
 export default function Projects() {
   const [tab, setTab] = useState('academic');
   const { academicProjects, workProjects } = data;
-  const projects = tab === 'academic' ? academicProjects : workProjects;
 
   return (
     <section id="projects" className="section-py" style={{ background: 'var(--dark2)' }}>
