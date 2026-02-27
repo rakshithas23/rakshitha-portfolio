@@ -1,0 +1,359 @@
+{
+  "personal": {
+    "name": "Rakshitha Srinivasa",
+    "firstName": "Rakshitha",
+    "lastName": "Srinivasa",
+    "title": "Full-Stack Software Engineer",
+    "subtitle": "MS Computer Science Santa Clara University",
+    "tagline": "Code by day. Dream in pixels by night.",
+    "bio": [
+      "From developing my first web application as an intern to engineering smart city platforms that transform urban mobility and tourism, I've always been driven by one question: How can technology make life better for real people?",
+      "I'm a Software Engineer pursuing my MS in Computer Science at Santa Clara University. Over the years, I've had the privilege of building full-stack systems from disaster management tools to smart city platforms that directly improve how people work and live.",
+      "What I enjoy most is that frontend never gets boring. Technology keeps evolving, and each day is an opportunity to improve and create something better than yesterday.",
+      "I thrive when I'm building scalable systems, optimizing performance, collaborating across teams to ship production-ready solutions, and picking up whatever technology the problem demands."
+    ],
+    "location": "San Jose, CA",
+    "phone": "+1 (669) 306-0515",
+    "email": "rsrinivasa@scu.edu",
+    "linkedin": "https://linkedin.com/in/rakshitha-srinivasa",
+    "github": "https://github.com/rakshithas23",
+    "photo": "/images/rakshitha.png",
+    "initials": "RS",
+    "available": true
+  },
+  "stats": [
+    {
+      "value": "2+",
+      "label": "Years Experience",
+      "icon": "bi-briefcase-fill"
+    },
+    {
+      "value": "10K+",
+      "label": "Users Served",
+      "icon": "bi-people-fill"
+    },
+    {
+      "value": "100K+",
+      "label": "Daily Interactions",
+      "icon": "bi-graph-up-arrow"
+    },
+    {
+      "value": "50K+",
+      "label": "Monthly Transactions",
+      "icon": "bi-credit-card-fill"
+    }
+  ],
+  "navigation": [
+    {
+      "label": "Home",
+      "id": "home"
+    },
+    {
+      "label": "About",
+      "id": "about"
+    },
+    {
+      "label": "Skills",
+      "id": "skills"
+    },
+    {
+      "label": "Experience",
+      "id": "experience"
+    },
+    {
+      "label": "Projects",
+      "id": "projects"
+    },
+    {
+      "label": "Publications",
+      "id": "publications"
+    },
+    {
+      "label": "Contact",
+      "id": "contact"
+    }
+  ],
+  "publications": [
+    {
+      "title": "Overview of Data Warehouse",
+      "type": "Research Paper",
+      "journal": "International Research Journal of Engineering and Technology (IRJET)",
+      "volume": "Volume 08, Issue 05",
+      "year": "May 2021",
+      "impactFactor": "7.529",
+      "issn": {
+        "eISSN": "2395-0056",
+        "pISSN": "2395-0072"
+      },
+      "authors": [
+        "Saadhvi Hosmane",
+        "Rakshitha S"
+      ],
+      "authorAffiliations": [
+        "Department of Information Science and Engineering, Global Academy of Technology, Bangalore",
+        "Department of Information Science and Engineering, JSS Academy of Technical Education, Bangalore"
+      ],
+      "abstract": "In latest years, the database community has seen major developments in a new technology: Data Warehouse. A data warehouse is a special repository that stores preprocessed queries on data which resides in many legacy, heterogeneous, or operational sources. The foremost goal of this paper is to introduce the learners to the basic concepts and terminology associated with data warehouse — covering architectures, ETL processes, OLAP tools, data marts, and real-world applications across banking, healthcare, retail, and government sectors.",
+      "link": "https://www.irjet.net/archives/V8/i5/IRJET-V8I5586.pdf",
+      "status": "published",
+      "pages": "9",
+      "pageRange": "3185–3193",
+      "certification": "ISO 9001:2008 Certified Journal"
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master of Science, Computer Science",
+      "school": "Santa Clara University",
+      "location": "Santa Clara, CA",
+      "period": "Sep 2025 – May 2027",
+      "abbr": "SCU",
+      "status": "current"
+    },
+    {
+      "degree": "Bachelor of Engineering, Information Science",
+      "school": "JSS Academy of Technical Education",
+      "location": "Bangalore, India",
+      "period": "Aug 2018 – Jul 2022",
+      "abbr": "JSS",
+      "status": "completed"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Software Engineer",
+      "company": "StepNstones Technologies Pvt. Ltd.",
+      "period": "Aug 2022 – Oct 2024",
+      "duration": "2 years 3 months",
+      "location": "Bangalore, India",
+      "type": "Full-time",
+      "bullets": [
+        "Disaster Management Platform: Built a full-stack disaster management platform using AngularJS, NodeJS and MySQL integrating modern messaging platforms such as WhatsApp. This platform provided an effective alerting channel for authorities that allowed effective mitigation and response strategies.",
+        "Asset and Defect Management System: Developed the frontend of a comprehensive web application using ReactJS for the state of Karnataka’s Power Corporation Department significantly improving system reliability and operational efficiency across 50,000+ assets.",
+        "Goa Smart City Program: Developed a high-traffic citizen portal enabling citizens of Goa (India) to easily register and recharge their bus pass cards online. The user-friendly platform also provided seamless transactions and real-time balance updates, contributing to improved public transport accessibility and encouraging the use of smart city initiatives.",
+        "Journey Planner: Developed a comprehensive journey planner for Goa Smart City, enhancing public transport accessibility. Integrated Razorpay to facilitate secure payments for card recharges and bus ticket bookings, streamlining user transactions and improving the overall travel experience.",
+        "Tirupati Smart City Platform: Designed and developed a city collaboration platform and a social media analytics dashboard using ReactJS, NodeJS, and the Meta Graph API, enabling city authorities to process and visualize real-time data streams and make data-driven decisions to promote tourism in Tirupati(India).",
+        "Parking System: Developed scalable REST APIs in PHP and MySQL using object-oriented design principles and efficient data handling to support 10,000+ parking slots across the city.",
+        "HRMS Portal: Designed and developed an web and mobile application for on-site personnel, streamlining attendance tracking and management processes significantly reduced operational costs by $20,000 per person which ultimately contributed to enhanced productivity and resource allocation within the company."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "category": "Languages",
+      "icon": "bi-code-slash",
+      "color": "primary",
+      "items": [
+        "Java",
+        "Python",
+        "JavaScript",
+        "TypeScript",
+        "PHP",
+        "HTML5",
+        "CSS3"
+      ]
+    },
+    {
+      "category": "Frameworks",
+      "icon": "bi-layers-fill",
+      "color": "success",
+      "items": [
+        "ReactJS",
+        "AngularJS",
+        "Node.js",
+        "Express.js",
+        "Flask",
+        "Spring Boot",
+        "Bootstrap"
+      ]
+    },
+    {
+      "category": "Databases",
+      "icon": "bi-database-fill",
+      "color": "warning",
+      "items": [
+        "MySQL",
+        "SQL"
+      ]
+    },
+    {
+      "category": "Tools & Cloud",
+      "icon": "bi-cloud-fill",
+      "color": "info",
+      "items": [
+        "Git",
+        "REST APIs",
+        "AWS",
+        "Microservices",
+        "AJAX",
+        "CI/CD",
+        "Agile/Scrum"
+      ]
+    },
+    {
+      "category": "Concepts",
+      "icon": "bi-lightbulb-fill",
+      "color": "danger",
+      "items": [
+        "Data Structures & Algorithms",
+        "OOPS",
+        "Database Systems",
+        "Operating Systems",
+        "API Design",
+        "Performance Optimization"
+      ]
+    }
+  ],
+  "academicProjects": [
+    {
+      "title": "RecFlix – Movie Recommendation System",
+      "dates": "Oct 2025 – Dec 2025",
+      "institution": "Santa Clara University",
+      "description": "Engineered a recommendation engine using content-based and collaborative filtering on 1M+ TMDb dataset. Designed normalized relational schemas with optimized SQL queries enabling collaborative playlist features with social following functionality.",
+      "icon": "bi-film",
+      "iconBg": "warning",
+      "tags": [
+        "Python",
+        "SQL",
+        "Machine Learning",
+        "Collaborative Filtering",
+        "TMDb API"
+      ],
+      "highlights": [
+        "1M+ dataset",
+        "Collaborative filtering",
+        "Optimized SQL"
+      ]
+    },
+    {
+      "title": "Aggression Detection among Adolescents",
+      "dates": "Jan 2022 – Jun 2022",
+      "institution": "JSS Academy of Technical Education",
+      "description": "Conducted Hate Speech classification on online platforms using machine learning algorithms including SVM, Random Forest, Linear Regression and Naive Bayes to detect states of aggression in adolescents.",
+      "icon": "bi-brain",
+      "iconBg": "purple",
+      "tags": [
+        "Python",
+        "SVM",
+        "Random Forest",
+        "NLP",
+        "Naive Bayes"
+      ],
+      "highlights": [
+        "SVM & Random Forest",
+        "NLP pipeline",
+        "Multi-algorithm comparison"
+      ]
+    },
+    {
+      "title": "Airlines Reservation System",
+      "dates": "May 2021 – Aug 2021",
+      "institution": "JSS Academy of Technical Education",
+      "description": "Developed a comprehensive airlines management system utilizing file structure implementations in C++, enabling seat reservation, booking management, and passenger record handling.",
+      "icon": "bi-airplane-fill",
+      "iconBg": "info",
+      "tags": [
+        "C++",
+        "File Structures",
+        "OOP",
+        "System Design"
+      ],
+      "highlights": [
+        "C++ file structures",
+        "OOP design",
+        "Full CRUD operations"
+      ]
+    }
+  ],
+  "workProjects": [
+    {
+      "title": "Asset Defect Management",
+      "dates": "2022 – 2024",
+      "description": "Developed web application using ReactJS for the state of Karnataka’s Power Corporation Department significantly improving system reliability and operational efficiency across 50,000+ assets.",
+      "icon": "bi-gear-wide-connected",
+      "iconBg": "primary",
+      "tags": [
+        "ReactJS"
+      ],
+      "highlights": [
+        "50K+ assets"
+      ]
+    },
+    {
+      "title": "HRMS Portal",
+      "dates": "2023",
+      "description": "Designed and developed a web and mobile application for on-site personnel, streamlining attendance tracking and management processes that reduced operational costs significantly.",
+      "icon": "bi-people-fill",
+      "iconBg": "primary",
+      "tags": [
+        "Angular",
+        "Node.js",
+        "SQL"
+      ],
+      "highlights": [
+        "$20K cost savings/person",
+        "Streamlined attendance tracking",
+        "Enhanced resource allocation"
+      ]
+    },
+    {
+      "title": "Tirupati Tourism Platform",
+      "dates": "2023 – 2024",
+      "description": "Tourism platform with social media analytics, handling daily user interactions with personalized recommendations and dynamic content.",
+      "icon": "bi-building-fill",
+      "iconBg": "warning",
+      "tags": [
+        "ReactJS",
+        "SQL",
+        "Node.js"
+      ],
+      "highlights": [
+        "Social analytics",
+        "Personalized content"
+      ]
+    },
+    {
+      "title": "Disaster Management Platform",
+      "dates": "2022 – 2023",
+      "description": "Real-time emergency response platform on improving coordination efficiency across multiple municipalities with live alert systems.",
+      "icon": "bi-shield-fill-exclamation",
+      "iconBg": "danger",
+      "tags": [
+        "Angular",
+        "Node.js",
+        "MySQL"
+      ],
+      "highlights": [
+        "Real-time alerts"
+      ]
+    }
+  ],
+  "certifications": [
+    {
+      "title": "Front End Development (HTML, CSS)",
+      "type": "cert",
+      "icon": "bi-award-fill"
+    },
+    {
+      "title": "Introduction to Cloud Computing",
+      "type": "cert",
+      "icon": "bi-award-fill"
+    },
+    {
+      "title": "Web Development with Bootstrap",
+      "type": "cert",
+      "icon": "bi-award-fill"
+    },
+    {
+      "title": "Programming with Python",
+      "type": "cert",
+      "icon": "bi-award-fill"
+    },
+    {
+      "title": "Overview of Data Warehouse",
+      "type": "pub",
+      "icon": "bi-journal-text",
+      "note": "Technical research paper on data warehousing architectures and best practices"
+    }
+  ]
+}
