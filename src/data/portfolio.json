@@ -3,12 +3,12 @@
     "name": "Rakshitha Srinivasa",
     "firstName": "Rakshitha",
     "lastName": "Srinivasa",
-    "title": "Full-Stack Software Engineer",
+    "title": "Software Engineer",
     "subtitle": "MS Computer Science Santa Clara University",
     "tagline": "Code by day. Dream in pixels by night.",
     "bio": [
       "From developing my first web application as an intern to engineering smart city platforms that transform urban mobility and tourism, I've always been driven by one question: How can technology make life better for real people?",
-      "I'm a Software Engineer pursuing my MS in Computer Science at Santa Clara University. Over the years, I've had the privilege of building full-stack systems from disaster management tools to smart city platforms that directly improve how people work and live.",
+      "I'm a Graduate Student pursuing my MS in Computer Science at Santa Clara University. Over the years, I've had the privilege of building full-stack systems from disaster management tools to smart city platforms that directly improve how people work and live.",
       "What I enjoy most is that frontend never gets boring. Technology keeps evolving, and each day is an opportunity to improve and create something better than yesterday.",
       "I thrive when I'm building scalable systems, optimizing performance, collaborating across teams to ship production-ready solutions, and picking up whatever technology the problem demands."
     ],
@@ -86,11 +86,9 @@
         "pISSN": "2395-0072"
       },
       "authors": [
-        "Saadhvi Hosmane",
         "Rakshitha S"
       ],
       "authorAffiliations": [
-        "Department of Information Science and Engineering, Global Academy of Technology, Bangalore",
         "Department of Information Science and Engineering, JSS Academy of Technical Education, Bangalore"
       ],
       "abstract": "In latest years, the database community has seen major developments in a new technology: Data Warehouse. A data warehouse is a special repository that stores preprocessed queries on data which resides in many legacy, heterogeneous, or operational sources. The foremost goal of this paper is to introduce the learners to the basic concepts and terminology associated with data warehouse — covering architectures, ETL processes, OLAP tools, data marts, and real-world applications across banking, healthcare, retail, and government sectors.",
@@ -163,7 +161,6 @@
         "Node.js",
         "Express.js",
         "Flask",
-        "Spring Boot",
         "Bootstrap"
       ]
     },
@@ -183,7 +180,6 @@
       "items": [
         "Git",
         "REST APIs",
-        "AWS",
         "Microservices",
         "AJAX",
         "CI/CD",
