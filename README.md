@@ -1,4 +1,4 @@
-# Rakshitha Srinivasa — Portfolio v2
+# Rakshitha Srinivasa — Portfolio
 
 > Built with React 18 + Bootstrap 5 + Framer Motion
 
