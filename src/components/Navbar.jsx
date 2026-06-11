@@ -25,11 +25,8 @@ export default function Navbar() {
 
   const scrollTo = (id) => {
     document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
-    // close Bootstrap mobile menu
-    const toggler = document.getElementById('navbarToggler');
-    if (toggler && toggler.classList.contains('show')) {
-      document.querySelector('.navbar-collapse')?.classList.remove('show');
-    }
+    const collapse = document.querySelector('.navbar-collapse');
+    if (collapse?.classList.contains('show')) collapse.classList.remove('show');
   };
 
   return (
@@ -40,9 +37,16 @@ export default function Navbar() {
       transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
     >
       <div className="container">
-        
 
-      
+        <a
+          className="navbar-brand navbar-brand-custom"
+          href="#home"
+          onClick={(e) => { e.preventDefault(); scrollTo('home'); }}
+        >
+          <span className="navbar-brand-dot" />
+          {data.personal.firstName[0]}{data.personal.lastName[0]}
+        </a>
+
         <button
           className="navbar-toggler border-0"
           type="button"
@@ -55,7 +59,6 @@ export default function Navbar() {
           <i className="bi bi-list fs-4" />
         </button>
 
-       
         <div className="collapse navbar-collapse" id="navbarContent">
           <ul className="navbar-nav ms-auto gap-1">
             {data.navigation.map((link) => (
@@ -69,6 +72,15 @@ export default function Navbar() {
               </li>
             ))}
           </ul>
+
+          <a
+            href={data.personal.linkedin}
+            target="_blank"
+            rel="noreferrer"
+            className="btn-hire ms-3"
+          >
+            <i className="bi bi-person-check-fill me-1" /> Hire Me
+          </a>
         </div>
       </div>
     </motion.nav>

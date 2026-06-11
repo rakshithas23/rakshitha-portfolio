@@ -19,7 +19,6 @@ export default function About() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <span className="section-badge">Who I Am</span>
           <h2 className="section-title">About Me</h2>
           <div className="section-divider" />
         </motion.div>
@@ -101,7 +100,10 @@ export default function About() {
                         {edu.status === 'current' && <span className="edu-current">Current</span>}
                       </div>
                       <div className="edu-school">{edu.school}</div>
-                      <div className="edu-meta">{edu.period} · {edu.location}</div>
+                      <div className="edu-meta">
+                        {edu.period} · {edu.location}
+                        {edu.cgpa && <span style={{ marginLeft: 8, color: 'var(--primary-light)', fontWeight: 600 }}>GPA: {edu.cgpa}</span>}
+                      </div>
                     </div>
                   </div>
                 ))}

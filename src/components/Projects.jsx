@@ -76,7 +76,7 @@ export default function Projects() {
   const { academicProjects, workProjects } = data;
 
   return (
-    <section id="projects" className="section-py" style={{ background: 'var(--dark2)' }}>
+    <section id="projects" className="section-py" style={{ background: 'var(--bg2)' }}>
       <div className="container">
        
         <motion.div
@@ -102,27 +102,28 @@ export default function Projects() {
           <div
             style={{
               display: 'inline-flex',
-              background: 'rgba(30,41,59,0.7)',
+              background: 'var(--surface)',
               border: '1px solid var(--border)',
+              boxShadow: '0 2px 12px rgba(59,130,246,0.08)',
               borderRadius: 14,
               padding: 5,
               gap: 4,
             }}
           >
             {[
-              { key: 'academic',      label: 'Academic Projects', icon: 'bi-mortarboard-fill' },
-              { key: 'professional',  label: 'Professional Work',  icon: 'bi-briefcase-fill' },
+              { key: 'academic',     label: 'Academic Projects', icon: 'bi-mortarboard-fill' },
+              { key: 'professional', label: 'Professional Work',  icon: 'bi-briefcase-fill' },
             ].map(t => (
               <button
                 key={t.key}
-                onClick={() => setTab(t.key === 'professional' ? 'professional' : 'academic')}
+                onClick={() => setTab(t.key)}
                 style={{
                   padding: '9px 22px', borderRadius: 10, border: 'none',
                   fontSize: '0.82rem', fontWeight: 600, cursor: 'pointer',
                   transition: 'all 0.25s',
                   background: tab === t.key ? 'linear-gradient(135deg, var(--primary), var(--primary-dark))' : 'transparent',
                   color: tab === t.key ? '#fff' : 'var(--text-muted)',
-                  boxShadow: tab === t.key ? '0 4px 16px rgba(99,102,241,0.35)' : 'none',
+                  boxShadow: tab === t.key ? '0 4px 16px rgba(59,130,246,0.3)' : 'none',
                   display: 'inline-flex', alignItems: 'center', gap: 6,
                 }}
               >

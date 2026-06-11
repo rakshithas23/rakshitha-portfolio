@@ -3,14 +3,15 @@
     "name": "Rakshitha Srinivasa",
     "firstName": "Rakshitha",
     "lastName": "Srinivasa",
-    "title": "Software Engineer",
+    "title": "Full-stack Developer",
     "subtitle": "MS Computer Science Santa Clara University",
     "tagline": "Code by day. Dream in pixels by night.",
     "bio": [
-      "From developing my first web application as an intern to engineering smart city platforms that transform urban mobility and tourism, I've always been driven by one question: How can technology make life better for real people?",
-      "I'm a Graduate Student pursuing my MS in Computer Science at Santa Clara University. Over the years, I've had the privilege of building full-stack systems from disaster management tools to smart city platforms that directly improve how people work and live.",
-      "What I enjoy most is that frontend never gets boring. Technology keeps evolving, and each day is an opportunity to improve and create something better than yesterday.",
-      "I thrive when I'm building scalable systems, optimizing performance, collaborating across teams to ship production-ready solutions, and picking up whatever technology the problem demands."
+      "Master’s student in Computer Science at Santa Clara University with 2 years of experience building scalable full-stack applications and distributed systems. Strong focus on system design, performance optimization, and production-grade software across React, TypeScript, Node.js, and RESTful architectures.",
+      "At SCU’s HCI Lab, I’m building SMAR, a large-scale data processing and analytics platform that scrapes and analyzes 10,000+ mobile applications from the Google Play Store and Apple App Store. Work includes microservices-based architecture, CI/CD automation, performance benchmarking using Grafana k6, and large-scale data analysis presented at Stanford University.",
+      "Previously at StepNStones Technologies, I developed production civic-tech systems including a disaster management platform used by 1,000+ government authorities, a real-time analytics system processing millions of social media events per day, and a citizen services platform integrating payments and live location tracking. Focus areas included system reliability, backend scalability, and real-time data processing.",
+      "Recently built an AI-powered flight booking agent using LLMs, agentic workflows, and Node.js, exploring applied AI systems for automating real-world user workflows.",
+"Seeking Software Engineering Internship (Summer or Fall 2026) opportunities"
     ],
     "location": "San Jose, CA",
     "phone": "+1 (669) 306-0515",
@@ -21,28 +22,6 @@
     "initials": "RS",
     "available": true
   },
-  "stats": [
-    {
-      "value": "2+",
-      "label": "Years Experience",
-      "icon": "bi-briefcase-fill"
-    },
-    {
-      "value": "10K+",
-      "label": "Users Served",
-      "icon": "bi-people-fill"
-    },
-    {
-      "value": "100K+",
-      "label": "Daily Interactions",
-      "icon": "bi-graph-up-arrow"
-    },
-    {
-      "value": "50K+",
-      "label": "Monthly Transactions",
-      "icon": "bi-credit-card-fill"
-    }
-  ],
   "navigation": [
     {
       "label": "Home",
@@ -101,10 +80,12 @@
   ],
   "education": [
     {
-      "degree": "Master of Science, Computer Science",
+      "degree": "Master of Science, Computer Science and Engineering",
       "school": "Santa Clara University",
       "location": "Santa Clara, CA",
-      "period": "Sep 2025 – May 2027",
+      "period": "Sep 2025 – June 2027",
+      "cgpa": "3.7/4",
+      "coursework": ["Data Structures & Algorithms", "Distributed Systems", "Computer Networks", "Operating Systems", "Software Engineering", "Database Systems", "Computer Security"],
       "abbr": "SCU",
       "status": "current"
     },
@@ -113,11 +94,25 @@
       "school": "JSS Academy of Technical Education",
       "location": "Bangalore, India",
       "period": "Aug 2018 – Jul 2022",
+      "cgpa": "3.89/4",
       "abbr": "JSS",
       "status": "completed"
     }
   ],
   "experience": [
+    {
+      "role": "Full-Stack Developer",
+      "company": "Human-Computer Interaction Lab, Santa Clara University",
+      "period": "Apr 2026 – Present",
+      "duration": "Present",
+      "location": "Santa Clara, CA",
+      "type": "Part-time",
+      "bullets": [
+        "Developed SMAR (<a href=’https://smar-tool.org’ target=’_blank’ rel=’noreferrer’>smar-tool.org</a>), a scalable full-stack platform using ReactJS, TypeScript, Node.js, REST APIs, and microservices, supporting analysis of 10,000+ mobile applications across Google Play and Apple App Store ecosystems.",
+        "Built automated CI/CD pipelines, monitoring infrastructure, and performance testing frameworks using Grafana k6, improving system reliability, observability and collection for large-scale analytics systems.",
+        "Debugged and resolved system bottlenecks, enhanced application performance, and presented research outcomes at Stanford University."
+      ]
+    },
     {
       "role": "Software Engineer",
       "company": "StepNstones Technologies Pvt. Ltd.",
@@ -126,77 +121,88 @@
       "location": "Bangalore, India",
       "type": "Full-time",
       "bullets": [
-        "Disaster Management Platform: Built a full-stack disaster management platform using AngularJS, NodeJS and MySQL integrating modern messaging platforms such as WhatsApp. This platform provided an effective alerting channel for authorities that allowed effective mitigation and response strategies.",
-        "Asset and Defect Management System: Developed the frontend of a comprehensive web application using ReactJS for the state of Karnataka’s Power Corporation Department significantly improving system reliability and operational efficiency across 50,000+ assets.",
-        "Goa Smart City Program: Developed a high-traffic citizen portal enabling citizens of Goa (India) to easily register and recharge their bus pass cards online. The user-friendly platform also provided seamless transactions and real-time balance updates, contributing to improved public transport accessibility and encouraging the use of smart city initiatives.",
-        "Journey Planner: Developed a comprehensive journey planner for Goa Smart City, enhancing public transport accessibility. Integrated Razorpay to facilitate secure payments for card recharges and bus ticket bookings, streamlining user transactions and improving the overall travel experience.",
-        "Tirupati Smart City Platform: Designed and developed a city collaboration platform and a social media analytics dashboard using ReactJS, NodeJS, and the Meta Graph API, enabling city authorities to process and visualize real-time data streams and make data-driven decisions to promote tourism in Tirupati(India).",
-        "Parking System: Developed scalable REST APIs in PHP and MySQL using object-oriented design principles and efficient data handling to support 10,000+ parking slots across the city.",
-        "HRMS Portal: Designed and developed an web and mobile application for on-site personnel, streamlining attendance tracking and management processes significantly reduced operational costs by $20,000 per person which ultimately contributed to enhanced productivity and resource allocation within the company."
+        "Developed a high-availability disaster management platform using Angular, Node.js, MySQL, and REST APIs, integrating WhatsApp Business APIs for real-time event processing and notification delivery across distributed systems supporting 1,000+ authorities.",
+        "Built a real-time analytics dashboard using ReactJS, Node.js, and Meta Graph APIs to process large-scale social media data, improving telemetry monitoring, system performance, and operational reliability for millions of daily interactions.",
+        "Developed a cloud-ready citizen services portal using ReactJS, Node.js, Razorpay, and OpenStreetMap, enabling secure payments and real-time location services for 10,000+ users."
       ]
     }
   ],
   "skills": [
     {
-      "category": "Languages",
+      "category": "Programming",
       "icon": "bi-code-slash",
       "color": "primary",
       "items": [
-        "Java",
-        "Python",
-        "JavaScript",
-        "TypeScript",
-        "PHP",
+         "Java",
+         "Python",
+          "JavaScript (ES6)",
+          "TypeScript",
+        "SQL",
         "HTML5",
-        "CSS3"
+        "CSS3",
+        "PHP"
       ]
     },
     {
-      "category": "Frameworks",
-      "icon": "bi-layers-fill",
+      "category": "Frontend",
+      "icon": "bi-layout-text-window-reverse",
       "color": "success",
       "items": [
         "ReactJS",
-        "AngularJS",
+        "Angular",
+        "Flutter",
+        "Dart",
+        "UI Development",
+        "Responsive Web Design"
+      ]
+    },
+    {
+      "category": "Backend",
+      "icon": "bi-server",
+      "color": "warning",
+      "items": [
         "Node.js",
         "Express.js",
-        "Flask",
-        "Bootstrap"
+        "REST APIs",
+        "Web Services",
+        "Microservices",
+        "API Design",
+        "Firebase"
       ]
     },
     {
       "category": "Databases",
       "icon": "bi-database-fill",
-      "color": "warning",
-      "items": [
-        "MySQL",
-        "SQL"
-      ]
-    },
-    {
-      "category": "Tools & Cloud",
-      "icon": "bi-cloud-fill",
-      "color": "info",
-      "items": [
-        "Git",
-        "REST APIs",
-        "Microservices",
-        "AJAX",
-        "CI/CD",
-        "Agile/Scrum"
-      ]
-    },
-    {
-      "category": "Concepts",
-      "icon": "bi-lightbulb-fill",
       "color": "danger",
       "items": [
+        "MySQL",
+        "Cloud Firestore"
+      ]
+    },
+    {
+      "category": "Cloud & DevOps",
+      "icon": "bi-cloud-fill",
+      "color": "primary",
+      "items": [
+        "AWS EC2",
+        "Kubernetes",
+        "CI/CD Pipelines",
+        "Grafana k6",
+        "Load Testing"
+      ]
+    },
+    {
+      "category": "Concepts & Methodologies",
+      "icon": "bi-lightbulb-fill",
+      "color": "success",
+      "items": [
         "Data Structures & Algorithms",
-        "OOPS",
-        "Database Systems",
         "Operating Systems",
-        "API Design",
-        "Performance Optimization"
+        "Database Systems",
+        "Object-Oriented Design and programming",
+        "Design Patterns",
+        "System Design",
+        "Agile Development"
       ]
     }
   ],
@@ -222,42 +228,65 @@
       ]
     },
     {
-      "title": "Aggression Detection among Adolescents",
-      "dates": "Jan 2022 – Jun 2022",
-      "institution": "JSS Academy of Technical Education",
-      "description": "Conducted Hate Speech classification on online platforms using machine learning algorithms including SVM, Random Forest, Linear Regression and Naive Bayes to detect states of aggression in adolescents.",
-      "icon": "bi-brain",
-      "iconBg": "purple",
+      "title": "AI-Powered Flight Booking Agent",
+      "dates": "2025",
+      "institution": "Santa Clara University",
+      "description": "Developed an AI-powered flight booking assistant using ReactJS, Node.js, and Agentic AI to automate real-time flight search and reservation workflows through natural language interactions. Built multi-step AI workflows integrating external travel platforms for intelligent recommendations and booking automation.",
+      "icon": "bi-robot",
+      "iconBg": "info",
       "tags": [
-        "Python",
-        "SVM",
-        "Random Forest",
-        "NLP",
-        "Naive Bayes"
+        "ReactJS",
+        "Node.js",
+        "Express.js",
+        "REST APIs",
+        "Agentic AI",
+        "Prompt Engineering",
+        "LLMs"
       ],
       "highlights": [
-        "SVM & Random Forest",
-        "NLP pipeline",
-        "Multi-algorithm comparison"
+        "Natural language interactions",
+        "Multi-step AI workflows",
+        "Real-time flight search"
       ]
     },
     {
-      "title": "Airlines Reservation System",
-      "dates": "May 2021 – Aug 2021",
-      "institution": "JSS Academy of Technical Education",
-      "description": "Developed a comprehensive airlines management system utilizing file structure implementations in C++, enabling seat reservation, booking management, and passenger record handling.",
-      "icon": "bi-airplane-fill",
-      "iconBg": "info",
+      "title": "Yard Sales Mobile Marketplace App",
+      "dates": "2025",
+      "institution": "Santa Clara University",
+      "description": "Developed a cross-platform mobile marketplace application with real-time chat, push notifications, location-based search, image uploads, and Google Maps integration for a seamless yard sale buying and selling experience.",
+      "icon": "bi-phone-fill",
+      "iconBg": "success",
       "tags": [
-        "C++",
-        "File Structures",
+        "Flutter",
+        "Dart",
+        "Firebase Authentication",
+        "Cloud Firestore",
+        "Firebase Storage",
+        "Google Maps"
+      ],
+      "highlights": [
+        "Real-time chat",
+        "Location-based search",
+        "Cross-platform mobile"
+      ]
+    },
+    {
+      "title": "Computerized Garden Management System",
+      "dates": "2021",
+      "institution": "JSS Academy of Technical Education",
+      "description": "Designed and developed a computerized garden management system to help users track plant inventories, schedule watering and maintenance tasks, and monitor garden conditions through an interactive dashboard with CRUD operations and reporting.",
+      "icon": "bi-tree-fill",
+      "iconBg": "success",
+      "tags": [
+        "Java",
+        "MySQL",
         "OOP",
         "System Design"
       ],
       "highlights": [
-        "C++ file structures",
-        "OOP design",
-        "Full CRUD operations"
+        "Plant inventory tracking",
+        "Maintenance scheduling",
+        "Interactive dashboard"
       ]
     }
   ],
