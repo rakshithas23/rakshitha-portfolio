@@ -8,7 +8,7 @@ const fadeUp = (delay = 0) => ({
 });
 
 export default function Hero() {
-  const { personal, stats } = data;
+  const { personal } = data;
 
   return (
     <section id="home" className="hero-section">
